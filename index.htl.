@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="PromoPro — профессиональные услуги для вашего бизнеса. Мы обеспечим успешные мероприятия и эффективное продвижение.">
+    <title>PromoPro — Профессиональные услуги промоутеров</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PromoPro</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#pricing">Цены</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container hero-container">
+            <h2>Мы делаем ваш бизнес видимым и успешным</h2>
+            <p>Профессиональные промоутеры для увеличения продаж и роста вашего бренда</p>
+            <a href="#contact" class="btn">Связаться с нами</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>PromoPro — это команда экспертов, работающих в области маркетинга и продвижения. Мы предоставляем качественные и эффективные услуги для бизнеса любого масштаба. Наша цель — помочь вам создать успешные мероприятия и рекламные кампании.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="service">
+                <h3>Промоутеры для мероприятий</h3>
+                <p>Подберем команду опытных промоутеров для вашего мероприятия.</p>
+            </div>
+            <div class="service">
+                <h3>Рекламные кампании</h3>
+                <p>Разработаем и реализуем эффективные рекламные кампании для повышения продаж.</p>
+            </div>
+            <div class="service">
+                <h3>Продвижение бренда</h3>
+                <p>Используем стратегические подходы для повышения узнаваемости вашего бренда.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="container">
+            <h2>Цены</h2>
+            <div class="price">
+                <h3>Промоутер в час</h3>
+                <p>500-600 руб.</p>
+            </div>
+            <div class="price">
+                <h3>Организация мероприятия</h3>
+                <p>Стоимость зависит от объема и сложности, обсуждается индивидуально.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <form id="contact-form" action="submit_form.php" method="POST">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 PromoPro. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
